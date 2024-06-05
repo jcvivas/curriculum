@@ -1,31 +1,254 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Curriculum Vitae</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta  name= "keywords" content="curriculum">
-    <meta name = "description" content="este es mi curriculum personal">
-    <meta name = "authors" content="julio vivas">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1>Curriculum vitae</h1>
-<h2>Informacion personal</h2>
-<ul>
-    <li>Nombre: Julio Vivas Molina</li>
-    <li>Edad: 23 años</li>
-    <li>correo electrónico: juliovivas7301@gmail.com</li>
-</ul>    
-<h2>habilidades técnicas</h2>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>javascript</li>
-    <li>python</li>
-    <li>java</li>
-    <li>C</li>
-</ul>  
-<h2>Educacion</h2>
-</body>
+  <head>
+    <title>CVJulioVivas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="curriculum" />
+    <meta name="description" content="Este es mi protafolio personal" />
+    <meta name="authors" content="Julio Vivas" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#aboutMe" class="logo">JV</a>
+      <input type="checkbox" id="side-menu" class="side-menu" />
+      <label for="side-menu" class="hamb"
+        ><span class="hamb-line"></span
+      ></label>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#aboutMe">Sobre mí</a></li>
+          <li><a href="#experience">Proyectos</a></li>
+          <li><a href="#formacion">Logros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="vacios"></div>
+    <div class="container">
+      <section id="aboutMe">
+        <div id="aboutMeContainer">
+          <div id="photo">
+            <img src="images/foto.png" alt="foto" id="foto" />
+          </div>
+          <div id="information">
+            <h5>Hola, soy</h5>
+            <h1>Julio Vivas</h1>
+            <p>
+              Soy un apasionado de la tecnología y estoy dedicado a resolver
+              problemas complejos a través de soluciones innovadoras.
+              <br /><br />Mi corta trayectoria en el mundo de la computación me
+              ha dotado de habilidades que incluyen desarrollo de software,
+              seguridad informatica y optimización de sistemas.<br /><br />
+              A lo largo de mi carrera académica, he participado en diversos
+              proyectos que han afinado mis habilidades en programación, diseño
+              de algoritmos y arquitectura de sistemas.<br /><br />
+              Tengo una sólida base en lenguajes como Python, Java y C++, y
+              siempre estoy explorando nuevas tecnologías para ampliar mi
+              experiencia.
+            </p>
+          </div>
+          <div id="AdditionalInformation-Container">
+            <div id="inf1">
+              <img src="images/uxdesign.svg" alt="uxdesign" />
+              <h3>UX/UI DESIGN</h3>
+              <p>
+                Enfocado en comprender los usuarios, solucionar<br />
+                problemas y crear prototipos para experiencias <br />
+                digitales excepcionales
+              </p>
+            </div>
+            <div id="inf2">
+              <img src="images/frontend.svg" alt="frontend" />
+              <h3>FRONTEND DEVELOPER</h3>
+              <p>
+                Creacion de interfaces de usuarios innovadoras <br />
+                con buenas practicas, diseños responsives y <br />
+                optimizaciones de contenido
+              </p>
+            </div>
+            <div id="inf3">
+              <img
+                src="images/tecnologias.svg"
+                alt="tecnologias"
+                id="tecfoto"
+              />
+              <h3>TECNOLOGIAS</h3>
+              <p>
+                Stack de herramientas de diseño y lenguajes de <br />
+                desarrollo para ofrecer solucones digiatles de <br />alto
+                rendimiento
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <h1 id="proyectosTitle">Proyectos</h1>
+        <div id="experienceContainer">
+          <div id="pro1">
+            <img src="images/emojiMaker.png" alt="emoji" />
+            <h3>Emoji Maker</h3>
+          </div>
+          <div id="pro2">
+            <img src="images/citas.png" alt="citas" />
+            <h3>Health Management</h3>
+          </div>
+          <div id="pro3">
+            <img src="images/calculadora.png" alt="calc" />
+            <h3>Calculadora</h3>
+          </div>
+          <div id="pro4">
+            <img src="images/ahorcado.png" alt="ahorc" />
+            <h3>Ahorcado</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="formacion">
+        <h1 id="logrosTitle">Logros</h1>
+        <div id="formacionContainer">
+          <div id="log1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              varius est. Suspendisse maximus egestas elit, ac consectetur nibh
+              scelerisque non. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Class aptent taciti
+              sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Quisque et pretium.
+            </p>
+          </div>
+          <div id="log2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              varius est. Suspendisse maximus egestas elit, ac consectetur nibh
+              scelerisque non. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Class aptent taciti
+              sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Quisque et pretium.
+            </p>
+          </div>
+          <div id="videoDiv">
+            <iframe
+              height=""
+              src="https://www.youtube.com/embed/hRchcv05pgc?si=zyc_BwTnLZAMqixU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              id="video"
+            ></iframe>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at.
+            </p>
+          </div>
+        </div>
+        <h2 id="habtit">Habilidades</h2>
+        <div id="skillsContainer">
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+              alt="HTML Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">HTML</div>
+              <div class="progress-bar">
+                <div class="progress html">80%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+              alt="CSS Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">CSS</div>
+              <div class="progress-bar">
+                <div class="progress css">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/919/919828.png"
+              alt="JavaScript Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">JavaScript</div>
+              <div class="progress-bar">
+                <div class="progress javascript">55%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+              alt="Python Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">Python</div>
+              <div class="progress-bar">
+                <div class="progress python">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+              alt="Java Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">Java</div>
+              <div class="progress-bar">
+                <div class="progress java">65%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png"
+              alt="C# Icon"
+            />
+            <div class="skill-details">
+              <div class="skill-label">C#</div>
+              <div class="progress-bar">
+                <div class="progress csharp">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div id="contactContainer">
+          <div id="formSection">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Nombre" required />
+              <input type="email" name="email" placeholder="Correo" required />
+              <textarea
+                name="message"
+                placeholder="Mensaje"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit" onclick="alert('Mensaje Enviado')">Enviar</button>
+            </form>
+          </div>
+          <div id="mapSection">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5853.197816748144!2d-79.9718396743486!3d-2.148798635408147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1717584832659!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact-details">
+              <p>Correo: jcvivas@espol.edu.ec</p>
+              <p>Ciudad: Guayaquil, Ecuador</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>Pagina hecha por Julio vivas</p>
+    </footer>
+  </body>
 </html>
